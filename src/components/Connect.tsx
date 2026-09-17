@@ -113,7 +113,7 @@ export const Connect: React.FC = () => {
                     <div className="flex items-center gap-3.5">
                       <div className="w-11 h-9 rounded-[4px] bg-white p-1 border border-white/20 flex items-center justify-center shrink-0">
                         <img
-                          src="/youtube_logo.png"
+                         src={`${import.meta.env.BASE_URL}youtube_logo.png`}
                           alt="YouTube"
                           className="w-full h-full object-contain"
                         />

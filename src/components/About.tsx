@@ -101,7 +101,7 @@ export const About: React.FC = () => {
                     <div className="flex items-center gap-3.5">
                       <div className="w-14 h-11 rounded-[6px] bg-white p-1 border border-white/20 flex items-center justify-center overflow-hidden shrink-0 shadow-sm">
                         <img
-                          src="/youtube_logo.png"
+                          src={`${import.meta.env.BASE_URL}youtube_logo.png`}
                           alt="YouTube Logo"
                           className="w-full h-full object-contain"
                           loading="lazy"
@@ -171,7 +171,7 @@ export const About: React.FC = () => {
                   id="about-youtube-btn"
                   className="mt-6 inline-flex items-center justify-center gap-2.5 px-6 py-3.5 bg-[#FF0000] hover:bg-[#CC0000] text-white font-bold text-xs uppercase tracking-[0.15em] transition-all min-h-[44px]"
                 >
-                  <img src="/youtube_logo.png" alt="YouTube" className="h-5 w-auto object-contain brightness-0 invert" />
+                  <img src={`${import.meta.env.BASE_URL}youtube_logo.png`} alt="YouTube" className="h-5 w-auto object-contain brightness-0 invert" />
                   <span>SUBSCRIBE ON YOUTUBE</span>
                 </a>
               </div>

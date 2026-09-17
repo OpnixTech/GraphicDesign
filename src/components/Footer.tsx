@@ -41,7 +41,7 @@ export const Footer: React.FC = () => {
                 className="text-gray-400 hover:text-[#FF0000] transition-colors min-h-[44px] flex items-center gap-2"
               >
                 <img
-                  src="/youtube_logo.png"
+                src={`${import.meta.env.BASE_URL}youtube_logo.png`}
                   alt="YouTube"
                   className="h-4 w-auto object-contain bg-white rounded-[2px] px-1 py-0.5"
                 />

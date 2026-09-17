@@ -49,7 +49,7 @@ export const designerProfile: DesignerProfile = {
     following: "724"
   },
   // Clean, professional portrait for the hero section
-  portraitImage: "/Abhay.png"
+portraitImage: `${import.meta.env.BASE_URL}Abhay.png`
 };
 
 export const creativeTools: CreativeTool[] = [
